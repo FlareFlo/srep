@@ -1,7 +1,7 @@
 use std::env::args;
 use std::fs;
 use prost::Message;
-use srep::GameRecording;
+use srep::game_recording::GameRecording;
 
 fn main() {
 	let path =  args().nth(1).expect("No Path passed");
